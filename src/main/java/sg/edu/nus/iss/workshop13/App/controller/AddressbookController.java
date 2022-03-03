@@ -34,7 +34,7 @@ public class AddressbookController {
         Logger.log(Level.INFO, "Name : " +contact.getName());
         Logger.log(Level.INFO, "Email : " +contact.getEmail());
         Logger.log(Level.INFO, "Phone : " +contact.getPhoneNumber());
-        Contacts ct = new Contacts();
+        Contact ct = new Contact();
 
        
         return "showContact";
